@@ -1,186 +1,242 @@
+import carImage208 from "../images/cars/208.png";
+import carImage500 from "../images/cars/500.png";
+import carImage718 from "../images/cars/718.png";
+import carImageAudiRS6 from "../images/cars/Audi RS6.png";
+import carImageBMWSerie1 from "../images/cars/BMW Serie 1.png";
+import carImageC3 from "../images/cars/C3.png";
+import carImageChallenger from "../images/cars/Challenger.png";
+import carImageChrysler300 from "../images/cars/Chrysler 300.png";
+import carImageClio from "../images/cars/Clio.png";
+import carImageCombi from "../images/cars/Combi.png";
+import carImageCorsa from "../images/cars/Corsa.png";
+import carImageDS4 from "../images/cars/DS 4.png";
+import carImageDS9 from "../images/cars/DS 9.png";
+import carImageEBerlingo from "../images/cars/E-Berlingo.png";
+import carImageFType from "../images/cars/F Type.png";
+import carImageF40 from "../images/cars/F40.png";
+import carImageGhibli from "../images/cars/Ghibli.png";
+import carImageGiulia from "../images/cars/Giulia.png";
+import carImageGrandTurismo from "../images/cars/GrandTurismo.png";
+import carImageHurican from "../images/cars/Hurican.png";
+import carImageJeepAvenger from "../images/cars/Jeep Avenger.png";
+import carImageMX5 from "../images/cars/MX 5.png";
+import carImageMercedesBlackSerie from "../images/cars/Mercedes Black Serie.png";
+import carImageModelY from "../images/cars/Model Y.png";
+import carImageMokka from "../images/cars/Mokka.png";
+import carImageRAM1500 from "../images/cars/RAM_1500.png";
+import carImageSkodaFabia from "../images/cars/Skoda Fabia.png";
+import carImageTopolino from "../images/cars/Topolino.png";
+import carImageV8Vantage from "../images/cars/V8 Vantage.png";
+import carImageYaris from "../images/cars/Yaris.png";
+
+import brandImageBugatti from "../images/brands/BUGATTI.png";
+import brandImageDodge from "../images/brands/DODGE.png";
+import brandImageJeep from "../images/brands/Jeep.png";
+import brandImageLancia from "../images/brands/Lancia.png";
+import brandImageRAM from "../images/brands/RAM.png";
+import brandImageSkoda from "../images/brands/Skoda.png";
+import brandImageTesla from "../images/brands/Tesla.png";
+import brandImageAbarth from "../images/brands/abarth.png";
+import brandImageAlfaRomeo from "../images/brands/alfa romeo.png";
+import brandImageBMV from "../images/brands/bmv.png";
+import brandImageChrysler from "../images/brands/chrysler.png";
+import brandImageCitroen from "../images/brands/citroen.png";
+import brandImageDS from "../images/brands/ds.png";
+import brandImageFerrari from "../images/brands/ferrari_resized.png";
+import brandImageFiat from "../images/brands/fiat.png";
+import brandImageMaserati from "../images/brands/maserati.png";
+import brandImageMazda from "../images/brands/mazda.png";
+import brandImageMercedes from "../images/brands/mercedes.png";
+import brandImageOpel from "../images/brands/opel.png";
+import brandImagePeugeot from "../images/brands/peugeot.png";
+import brandImageRenault from "../images/brands/renault.png";
+import brandImageSeat from "../images/brands/seat.png";
+import brandImageVauxhall from "../images/brands/vauxhall.png";
+import brandImageAudi from "../images/brands/Audi.png";
+import brandImageFord from "../images/brands/Ford.png";
+import brandImageMitsubishi from "../images/brands/Mitsubishi.png";
+import brandImageNissan from "../images/brands/Nissan.png";
+import brandImagePorsche from "../images/brands/Porsche.png";
+import brandImageToyota from "../images/brands/Toyota.png";
+import brandImageRivian from "../images/brands/rivian.png";
+
 export const carsData = [
   {
-    image: require("../images/cars/208.png"),
+    image: carImage208,
     name: "Car 1",
     type: "208",
     isStellantis: true
   },
   {
-    image: require("../images/cars/500.png"),
+    image: carImage500,
     name: "Car 2",
     type: "500",
     isStellantis: true
   },
   {
-    image: require("../images/cars/718.png"),
+    image: carImage718,
     name: "Car 3",
     type: "718",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Audi RS6.png"),
+    image: carImageAudiRS6,
     name: "Car 4",
     type: "Audi RS6",
     isStellantis: false
   },
   {
-    image: require("../images/cars/BMW Serie 1.png"),
+    image: carImageBMWSerie1,
     name: "Car 5",
     type: "BMW Serie 1",
     isStellantis: false
   },
   {
-    image: require("../images/cars/C3.png"),
+    image: carImageC3,
     name: "Car 6",
     type: "C3",
     isStellantis: true
   },
   {
-    image: require("../images/cars/Challenger.png"),
+    image: carImageChallenger,
     name: "Car 7",
     type: "Challenger",
     isStellantis: true
   },
   {
-    image: require("../images/cars/Chrysler 300.png"),
+    image: carImageChrysler300,
     name: "Car 8",
     type: "Chrysler 300",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Clio.png"),
+    image: carImageClio,
     name: "Car 9",
     type: "Clio",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Combi.png"),
+    image: carImageCombi,
     name: "Car 10",
     type: "Combi",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Corsa.png"),
+    image: carImageCorsa,
     name: "Car 11",
     type: "Corsa",
     isStellantis: true
   },
   {
-    image: require("../images/cars/DS 4.png"),
+    image: carImageDS4,
     name: "Car 12",
     type: "DS 4",
     isStellantis: true
   },
   {
-    image: require("../images/cars/DS 9.png"),
+    image: carImageDS9,
     name: "Car 13",
     type: "DS 9",
     isStellantis: true
   },
   {
-    image: require("../images/cars/E-Berlingo.png"),
+    image: carImageEBerlingo,
     name: "Car 14",
     type: "E-Berlingo",
     isStellantis: true
   },
   {
-    image: require("../images/cars/F Type.png"),
+    image: carImageFType,
     name: "Car 15",
     type: "F Type",
     isStellantis: false
   },
   {
-    image: require("../images/cars/F40.png"),
+    image: carImageF40,
     name: "Car 16",
     type: "F40",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Ghibli.png"),
+    image: carImageGhibli,
     name: "Car 17",
     type: "Ghibli",
     isStellantis: true
   },
   {
-    image: require("../images/cars/Giulia.png"),
+    image: carImageGiulia,
     name: "Car 18",
     type: "Giulia",
     isStellantis: true
   },
   {
-    image: require("../images/cars/GrandTurismo.png"),
+    image: carImageGrandTurismo,
     name: "Car 19",
     type: "GrandTurismo",
     isStellantis: true
   },
   {
-    image: require("../images/cars/Hurican.png"),
+    image: carImageHurican,
     name: "Car 20",
     type: "Hurican",
     isStellantis: false
   },
-  // {
-  //   image: require("../images/cars/Hyper_9x8_Neo_Performance.png"),
-  //   name: "Car 21",
-  //   type: "Hyper_9x8_Neo_Performance",
-  //   isStellantis: true
-  // },
   {
-    image: require("../images/cars/Jeep Avenger.png"),
+    image: carImageJeepAvenger,
     name: "Car 22",
     type: "Jeep Avenger",
     isStellantis: true
   },
   {
-    image: require("../images/cars/MX 5.png"),
+    image: carImageMX5,
     name: "Car 23",
     type: "MX 5",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Mercedes Black Serie.png"),
+    image: carImageMercedesBlackSerie,
     name: "Car 24",
     type: "Mercedes Black Serie",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Model Y.png"),
+    image: carImageModelY,
     name: "Car 25",
     type: "Model Y",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Mokka.png"),
+    image: carImageMokka,
     name: "Car 26",
     type: "Mokka",
     isStellantis: true
   },
   {
-    image: require("../images/cars/RAM_1500.png"),
+    image: carImageRAM1500,
     name: "Car 27",
     type: "RAM_1500",
     isStellantis: true
   },
   {
-    image: require("../images/cars/Skoda Fabia.png"),
+    image: carImageSkodaFabia,
     name: "Car 28",
     type: "Skoda Fabia",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Topolino.png"),
+    image: carImageTopolino,
     name: "Car 29",
     type: "Topolino",
     isStellantis: true
   },
   {
-    image: require("../images/cars/V8 Vantage.png"),
+    image: carImageV8Vantage,
     name: "Car 30",
     type: "V8 Vantage",
     isStellantis: false
   },
   {
-    image: require("../images/cars/Yaris.png"),
+    image: carImageYaris,
     name: "Car 31",
     type: "Yaris",
     isStellantis: false
@@ -190,181 +246,181 @@ export const carsData = [
 export const companiesData = [
   {
     type: "brand",
-    image: require("../images/brands/BUGATTI.png"),
+    image: brandImageBugatti,
     name: "Bugatti",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/DODGE.png"),
+    image: brandImageDodge,
     name: "Dodge",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/Jeep.png"),
+    image: brandImageJeep,
     name: "Jeep",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/Lancia.png"),
+    image: brandImageLancia,
     name: "Lancia",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/RAM.png"),
+    image: brandImageRAM,
     name: "RAM",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/Skoda.png"),
+    image: brandImageSkoda,
     name: "Skoda",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/Tesla.png"),
+    image: brandImageTesla,
     name: "Tesla",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/abarth.png"),
+    image: brandImageAbarth,
     name: "abarth",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/alfa romeo.png"),
+    image: brandImageAlfaRomeo,
     name: "alfa romeo",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/bmv.png"),
+    image: brandImageBMV,
     name: "bmv",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/chrysler.png"),
+    image: brandImageChrysler,
     name: "chrysler",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/citroen.png"),
+    image: brandImageCitroen,
     name: "citroen",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/ds.png"),
+    image: brandImageDS,
     name: "ds",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/ferrari_resized.png"),
+    image: brandImageFerrari,
     name: "ferrari",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/fiat.png"),
+    image: brandImageFiat,
     name: "fiat",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/maserati.png"),
+    image: brandImageMaserati,
     name: "maserati",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/mazda.png"),
+    image: brandImageMazda,
     name: "mazda",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/mercedes.png"),
+    image: brandImageMercedes,
     name: "mercedes",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/opel.png"),
+    image: brandImageOpel,
     name: "opel",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/peugeot.png"),
+    image: brandImagePeugeot,
     name: "peugeot",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/renault.png"),
+    image: brandImageRenault,
     name: "renault",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/seat.png"),
+    image: brandImageSeat,
     name: "seat",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/vauxhall.png"),
+    image: brandImageVauxhall,
     name: "vauxhall",
     isStellantis: true
   },
   {
     type: "brand",
-    image: require("../images/brands/Audi.png"),
+    image: brandImageAudi,
     name: "audi",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/Ford.png"),
+    image: brandImageFord,
     name: "Ford",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/Mitsubishi.png"),
+    image: brandImageMitsubishi,
     name: "Mitsubishi",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/Nissan.png"),
+    image: brandImageNissan,
     name: "Nissan",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/Porsche.png"),
+    image: brandImagePorsche,
     name: "Porsche",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/Toyota.png"),
+    image: brandImageToyota,
     name: "Toyota",
     isStellantis: false
   },
   {
     type: "brand",
-    image: require("../images/brands/rivian.png"),
+    image: brandImageRivian,
     name: "rivian",
     isStellantis: false
   }

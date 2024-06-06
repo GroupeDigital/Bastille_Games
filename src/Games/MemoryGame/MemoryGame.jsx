@@ -145,7 +145,11 @@ export default function MemoryGameV1({ version }) {
 
       <Dialog
         open={showModal}
-        disableBackdropClick
+        onClose={(event, reason) => {
+          if (reason !== 'backdropClick') {
+            // Vaša logika na zatvorenie dialogu
+          }
+        }}
         disableEscapeKeyDown
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
