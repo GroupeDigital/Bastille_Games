@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap");
+
+.Game {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  color: white;
+
+  .container {
+    display: flex;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    margin-top: 2em;
+    border: 1px solid grey;
+    height: 100vh;
+    width: 100vh;
+    
+    .karta {
+      background-color: red;
+      cursor: pointer;
+    
+      &.is-flipped {
+        .karta-font-face {
+          transform: rotateY(180deg);
+        }
+        .karta-back-face {
+          transform: rotateY(0);
+        }
+      }
+    
+      .karta-font-face,
+      .karta-back-face {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        backface-visibility: hidden;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    
+        & img {
+          width: 70px;
+          height: 70px;
+        }
+      }
+    
+      .karta-font-face {
+        background-color: #1e90ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: rotateY(180deg);
+      }
+    
+      .karta-back-face {
+        background-color: #ffa500;
+        transform: rotateY(180deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      &.is-inactive {
+        pointer-events: none;
+        .karta-font-face {
+          background-color: #32cd32;
+        }
+      }
+    }
+  }
+}
+
+

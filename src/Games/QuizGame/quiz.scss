@@ -1,0 +1,22 @@
+.selection-tag, .number-of-selection{
+  display: none;
+}
+
+body > div.ReactModalPortal > div > div > div > div > div > div > div:nth-child(2){
+  display: none;
+}
+
+.react-quiz-container{
+  display: flex;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #444444;
+  .answerBtn{
+    color: #444444;
+  }
+  .questionWrapper .btn{
+    font-size: 2rem;
+  }
+}

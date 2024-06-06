@@ -1,0 +1,21 @@
+
+Game
+https://chat.openai.com/share/bde8f553-ebc1-4788-8446-894ffeef5abc
+
+Implementacia Modalu - https://chat.openai.com/share/a85e2658-1de5-4c86-81b7-4d525c09813b
+
+
+Game 1 - MemoGame
+- https://javascript.plainenglish.io/building-a-card-memory-game-in-react-e6400b226b8f
+- https://codesandbox.io/s/memory-game-cye71m?file=/src/App.js:0-87
+
+Game 2 - QuizGame
+
+
+Game 3 - 
+
+
+Game 4
+
+Tasks:
+- vytvorit zakladnu struktur a navigaciu aplikaciou
