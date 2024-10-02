@@ -1,12 +1,12 @@
 import { useEffect, useState, useRef } from "react";
 import {
   Dialog,
-  DialogActions,
   DialogContent,
-  DialogContentText,
+  DialogActions,
   Button,
-  DialogTitle
-} from "@material-ui/core";
+  DialogTitle,
+  DialogContentText
+} from "@mui/material";
 import Card from "./card";
 import "./memoryGame.scss";
 import { CarsArray, CompaniesArray } from "./cards";
