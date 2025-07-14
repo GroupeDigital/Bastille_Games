@@ -73,7 +73,7 @@ const AppContent = () => {
           onClick={() => openModalWithComponent(PickingGame, "Companies")}
         />
       </Card>
-      <Card
+      {/* <Card
         title="Quiz"
         image="/placeholder_300x200.png"
         onClick={() => openModalWithComponent(QuizGame)}
@@ -82,7 +82,7 @@ const AppContent = () => {
         title="Lottery"
         image="/placeholder_300x200.png"
         onClick={() => openModalWithComponent(SpinToWin)}
-      />
+      /> */}
       <Modal showModal={showModal}>{modalContent}</Modal>
     </div>
   );
