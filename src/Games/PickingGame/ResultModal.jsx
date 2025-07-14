@@ -1,5 +1,5 @@
 import React from "react";
-import { Dialog, DialogTitle, DialogActions, Button } from "@material-ui/core";
+import { Dialog, DialogTitle, DialogActions, Button } from "@mui/material";
 
 function ResultModal({ open, onClose }) {
   return (
